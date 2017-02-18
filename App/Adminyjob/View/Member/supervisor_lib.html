@@ -1,0 +1,840 @@
+<include file="Public:header"/>
+<body>
+<!-- BEGIN SECTION -->
+<section id="container" class="">
+
+<include file="Public:top"/>
+
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN MAIN CONTENT -->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <ul>
+                                <li class="first-font">
+                                    督导列表
+                                </li>
+                                <div class="opinion-hr">
+                                    <hr />
+                                </div>
+                            </ul>
+
+                            <table class="f-tab table-hover table-condensed table-striped table-bordered table dataTable" id="hidden-table-info" aria-describedby="hidden-table-info_info">
+                                <thead>
+                                <tr role="row">
+                                    <th>&nbsp;</th>
+                                    <th>基本信息</th>
+                                    <th>性别</th>
+                                    <th>实名认证</th>
+                                    <th>手机号</th>
+                                    <th>平台信誉</th>
+                                    <th>评价/工作记录</th>
+                                </tr>
+                                </thead>
+                                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a1" type="checkbox">
+                                            <label for="checkbox_a1"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                
+                                <!--<tr class="newTr">
+						            <td colspan="12">
+						              	<ul class="unstyled inline">
+								
+							              <li><span>累计工作</span><br><span>2033</span></li>
+							              <li><span>综合评价</span><br><span>38%</span></li>
+							              <li><div class="v-line"><span></span></div></li>
+							              <li><span>准时到岗</span><br><span>90%</span></li>
+							              <li><span>工作态度</span><br><span>80%</span></li>
+							              <li><span>工作能力</span><br><span>90%</span></li>
+							              <li><span>放心靠谱</span><br><span>80%</span></li>   
+							              <li><span>提升空间</span><br><span>30%</span></li>
+									
+						              	</ul>
+						            </td>
+                                </tr>-->
+                                
+                                
+                                
+                                
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+						            		<!--<li class="wx-new"><span>累计工作</span><br><span>2033</span></li>
+							                <li class="wx-new"><span>综合评价</span><br><span>38%</span></li>
+							                <li class="wx-new"><div class="v-line"><span></span></div></li>
+							                <li class="wx-new"><span>准时到岗</span><br><span>90%</span></li>
+							                <li class="wx-new"><span>工作态度</span><br><span>80%</span></li>
+							                <li class="wx-new"><span>工作能力</span><br><span>90%</span></li>
+							                <li class="wx-new"><span>放心靠谱</span><br><span>80%</span></li>   
+							                <li class="wx-new"><span>提升空间</span><br><span>30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>-->
+							                
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a2" type="checkbox">
+                                            <label for="checkbox_a2"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a3" type="checkbox">
+                                            <label for="checkbox_a3"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a4" type="checkbox">
+                                            <label for="checkbox_a4"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a5" type="checkbox">
+                                            <label for="checkbox_a5"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a6" type="checkbox">
+                                            <label for="checkbox_a6"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a7" type="checkbox">
+                                            <label for="checkbox_a7"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a8" type="checkbox">
+                                            <label for="checkbox_a8"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                        		<!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a9" type="checkbox">
+                                            <label for="checkbox_a9"></label>
+                                        </div>
+                                    </td>
+                                    <td class="text-blue">肖允瀚</td>
+                                    <td>男</td>
+                                    <td>未认证</td>
+                                    <td>15212234876</td>
+                                    <td>
+                                        上岗次数: 2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        放鸽子数:2022&nbsp;&nbsp;&nbsp;&nbsp;
+                                        取消次数: 2202&nbsp;&nbsp;&nbsp;&nbsp;
+                                        早退次数:2202
+                                    </td>
+                                    
+                                    <td class="text-center"><i class="fa fa-plus-circle jiahao"></i></td>
+                                </tr>
+                                <tr class="newTr">
+						            <td colspan="12">
+						            	<ul class="unstyled inline">
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">累计工作</span><span class="wx-span2" style="color: #999999;">2033</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">综合评价</span><span class="wx-span2" style="color: #999999;">38%</span></li>
+								            <li class="wx-new"><div class="v-line"><span></span></div></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">准时到岗</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作态度</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">工作能力</span><span class="wx-span2" style="color: #999999;">90%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">放心靠谱</span><span class="wx-span2" style="color: #999999;">80%</span></li>
+								            <li class="wx-new"><span class="wx-span1" style="color: #999999;">提升空间</span><span class="wx-span2" style="color: #999999;">30%</span></li>
+								            <li class=" wx-new tc"><a href="#"><span class="wx-span1">个人魅力卡<span class="wx-span2" style="color: #999999;">80%</span></a></li>
+						                </ul>
+						                
+						                <div class="wx-a">
+											<div class="wx-top">
+											    <div  class="wx-close">×</div>
+											    <h4 class="wx-title">个人魅力卡</h4>
+											</div>
+											<div class="wx-center">
+												<ul class="wx-ul">
+													<li class="wx-li">
+														<span class="wx-left">昵称：</span>
+														<span class="wx-right">恩，就是这个昵称</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">真实姓名：</span>
+														<span class="wx-right">刘德华6</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">性别：</span>
+														<span class="wx-right">男</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">身份证号：</span>
+														<span class="wx-right">320153256478541239</span>
+													</li>
+													<li class="wx-li">
+														<span class="wx-left">证件照片：</span>
+														<span class="wx-right">
+															<img src="#checkbox_qx.jpg"/>
+															<img src="#checkbox_qx.jpg"/>
+														</span>
+													</li>
+												</ul>
+											</div>
+										</div>
+						            </td>
+                        		</tr>
+                        		
+                                </tbody>
+                            </table>
+
+                            <div class="pull-left bottom-btn-group">
+                                <div class="checkbox checkbox-info checkbox-inline">
+                                    <input id="checkbox_qx" name="full-select" type="checkbox">
+                                    <label for="checkbox_qx">全选</label>
+                                </div>
+                                <button type="button" class="btn">
+                                    导出
+                                </button>
+       
+                                <button type="button" class="btn">
+                                    加人黑名单
+                                </button>
+                            </div>
+
+
+
+                            <ul class="pagination success pull-right ">
+                                <li class="disabled">
+                                    <a href="#fakelink">
+                                        首页
+                                    </a>
+                                </li>
+                                <li class="disabled">
+                                    <a href="#fakelink">
+                                        上一页
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#fakelink">
+                                        1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        2
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        3
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        4
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        下一页
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        尾页
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+
+
+<!--个人魅力-->
+<!--<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header enterprise-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+
+                </button>
+                <h4 class="modal-title">个人魅力卡</h4>
+            </div>
+            <div class="modal-body">
+                <ul class="p-info">
+                    <li class="enterprise-li">
+                        <div class="left">昵称:</div>
+                        <div class="right">凑凑凑凑上八个字</div>
+                    </li>
+                    <li class="enterprise-li">
+                        <div class="left">真实姓名:</div>
+                        <div class="right">刘德华</div>
+                    </li>
+                    <li class="enterprise-li">
+                        <div class="left">性别:</div>
+                        <div class="right">男</div>
+                    </li>
+                    <li class="enterprise-li">
+                        <div class="left">身份证号:</div>
+                        <div class="right">310584199209253154</div>
+                    </li>
+                    <li class="enterprise-li">
+                        <div class="enterprise-logo-left">
+                            <div class="name-logo">证件照片:</div>
+                            <div class="enterprise-img">
+                                <a href="#"><img src="img/avatar1.jpg"></a>  
+                            </div>
+                        </div>
+                        <div class="enterprise-logo-right">
+                            <div class="enterprise-zhizhao"></div>
+                            <div class="enterprise-img">
+                                <a href="#"><img src="img/avatar1.jpg"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>-->
+
+<include file="Public:footer"/>
+

@@ -1,0 +1,261 @@
+<!-- BEGIN HEADER -->
+<header class="header white-bg">
+    <a href="{:U('index/index')}" class="logo">
+        <img src="__PUBLIC__/admin/img/images/header_06.png" alt="">
+    </a>
+    <!--LOGO结束-->
+    <!--开始用户-->
+    <div class="top-nav ">
+        <ul class="nav pull-right top-menu">
+            <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                    <img alt="" src="__PUBLIC__/admin/img/avatar1_small.jpg">
+                    <span class="username">
+                  云兼职平台
+                </span>
+                    <b class="caret">
+                    </b>
+                </a>
+                <ul class="dropdown-menu extended logout">
+                    <li class="log-arrow-up">
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class=" fa fa-suitcase">
+                            </i>
+                            Profile
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="{:U('login/loginout')}">
+                            <i class="fa fa-key">
+                            </i>
+                            退出登录
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- 用户结束 -->
+</header>
+<!-- END HEADER -->
+<!-- BEGIN SIDEBAR -->
+<aside>
+    <div id="sidebar" class="nav-collapse">
+        <ul class="sidebar-menu" id="nav-accordion">
+            <li >
+                <a href="{:U('index/index')}" class="active">
+                    <i class="fa fa-home">
+                    </i>
+                    <span>
+			          系统后台管理
+			        </span>
+                </a>
+            </li>
+            
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-briefcase">
+                    </i>
+                    <span>
+							  职位管理
+			        		</span>
+                    <span class="label label-success span-sidebar">
+			          1
+			        </span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="{:U('position/job_listings')}">
+                            职位列表
+                        </a>
+                    </li>
+                    <!--<li>
+                        <a href="{:U('Position/job_update')}">
+                            职位修改
+                        </a>
+                    </li>-->
+                    
+            
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-user">
+                    </i>
+                    <span>
+			          会员管理
+			        </span>
+                    <span class="label label-info span-sidebar">
+			          4
+			        </span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="{:U('member/name_authentication')}">
+                            实名认证
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('member/part_time_lib')}">
+                            兼职列表
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('member/supervisor_lib')}">
+                            督导列表
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('member/bd_lib')}">
+                            BD列表
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-briefcase">
+                    </i>
+                    <span>
+			          企业管理
+			        </span>
+                    <span class="label label-success span-sidebar">
+			        1
+			        </span>
+                </a>
+                <ul class="sub">
+       
+                    <li>
+                        <a href="{:U('business/enterprise_certification')}">
+                            企业认证
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-file-text">
+                    </i>
+                    <span>
+			          内容管理
+			        </span>
+                    <span class="label label-inverse span-sidebar">
+			          4
+			        </span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="{:U('content/content_management')}">
+                            内容管理
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('content/add_content')}">
+                            内容添加
+                        </a>
+                    </li>
+                    <!--<li>-->
+                    <!--<a href="sort_management.html">-->
+                    <!--分类管理-->
+                    <!--</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                    <!--<a href="region_class.html">-->
+                    <!--地区分类-->
+                    <!--</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="{:U('content/opinion_suggest')}">
+                            意见反馈
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-wrench">
+                    </i>
+                    <span>
+			          工具
+			        </span>
+                    <span class="label label-primary span-sidebar">
+			          4
+			        </span>
+                </a>
+                <ul class="sub">
+                    <li>
+                        <a href="#">
+                            计划任务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('instrument/being_pushed')}">
+                            消息推送
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('instrument/bank_card')}">
+                            银行卡查询
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('instrument/generalize_query')}">
+                            推广查询
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{:U('instrument/hbgl')}">
+                            红包管理
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href="javascript:;">
+                    <i class="fa fa-cog">
+                    </i>
+                    <span>
+			          系统设置
+			        </span>
+                    <span class="label label-danger span-sidebar">
+			          4
+			        </span>
+                </a>
+                <ul class="sub">
+     
+                    <li>
+                        <a href="{:U('system/personal_settings')}">
+                            基础设置
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="{:U('system/job_class')}">
+                            分类管理
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="{:U('system/substation_management')}">
+                            分站管理
+                        </a>
+                    </li>
+ 
+                    <li>
+                        <a href="#">
+                            管理员设置
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</aside>
+<!-- END SIDEBAR -->

@@ -1,0 +1,582 @@
+<include file="Public:header" />
+
+<body>
+	<!-- BEGIN SECTION -->
+	<section id="container" class="">
+
+		<include file="Public:top" />
+
+
+    <!-- BEGIN MAIN CONTENT -->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <ul>
+                                <li class="first-font">
+                                    分类管理
+                                </li>
+                                <div class="opinion-hr">
+                                    <hr />
+                                </div>
+                                <li>
+                                    <div class="panel-body">
+                                        <form method="post" action="" class="form-horizontal">
+                                        	<div class="panel panel-default">
+                                        		<div class="wx-joblist">
+		                                          	<ul class="wx-job">
+		                                          		<li class="wx-dress">分类管理</li>
+		                                          		<li class="wx-px">排序</li>
+		                                          		<li class="wx-cz" style="text-align: center;">操作</li>
+		                                          	</ul>
+		                                          	<!--职位分类-->
+		                                          	<div class="wx-one">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg">
+		                                                        <span name="categoryname[]" class="region-span">职位分类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          		
+		                                          		
+		                                          		<!--二级-->
+			                                          	<div class="wx-two">
+			                                          		<ul class="wx-jobnor">
+			                                          			<li class="wx-dress" style="width: 60%;">
+				                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+			                                                        <input name="save_id[]" type="hidden" value="1">
+			                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg1">
+			                                                        <span name="categoryname[]" class="region-span">家政服务类</span>
+				                                          		</li>
+				                                          		<li style="width: 20%; margin-top: 8px;">
+				                                          			<input class="form-control region-ord wx-paixu2" name="category_order[]" type="text" value="0">
+				                                          		</li>
+				                                          		<li style="width: 15%;">
+				                                          			<div class="pull-right">
+			                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            	<a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+			                                                            <a href="#">删除</a>
+			                                                        </div>
+				                                          		</li>
+			                                          		</ul>
+			                                          		<!--三级-->
+				                                          	<div class="wx-three">
+				                                          		<ul class="wx-jobnor">
+				                                          			<li class="wx-dress" style="width: 60%;">
+					                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+				                                                        <input name="save_id[]" type="hidden" value="1">
+				                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+				                                                        <span name="categoryname[]" class="region-span">家教辅导</span>
+					                                          		</li>
+					                                          		<li style="width: 20%; margin-top: 8px;">
+					                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+					                                          		</li>
+					                                          		<li style="width: 15%;">
+					                                          			<div class="pull-right">
+				                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                           			<a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+				                                                            <a href="#">删除</a>
+				                                                        </div>
+					                                          		</li>
+				                                          		</ul>
+				                                          		
+				                                          		<!--四级-->
+					                                          	<div class="wx-throu">
+					                                          		<ul class="wx-jobnor">
+					                                          			<li class="wx-dress" style="width: 60%;">
+						                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+					                                                        <input name="save_id[]" type="hidden" value="1">
+					                                                        <img src="__PUBLIC__/Admin/img/left_d.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+					                                                        <span name="categoryname[]" class="region-span">辅导小学</span>
+						                                          		</li>
+						                                          		<li style="width: 20%; margin-top: 8px;">
+						                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+						                                          		</li>
+						                                          		<li style="width: 15%;">
+						                                          			<div class="pull-right">
+					                                                            <!--<a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|-->
+					                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+					                                                            <a href="#">删除</a>
+					                                                        </div>
+						                                          		</li>
+					                                          		</ul>
+					                                          	</div>
+				                                          		
+				                                          	</div>
+
+			                                          	</div>
+			                                          	
+			                                          	
+			                                          	<!--二级-->
+			                                          	<div class="wx-two">
+			                                          		<ul class="wx-jobnor">
+			                                          			<li class="wx-dress" style="width: 60%;">
+				                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+			                                                        <input name="save_id[]" type="hidden" value="1">
+			                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg1">
+			                                                        <span name="categoryname[]" class="region-span">京东客服</span>
+				                                          		</li>
+				                                          		<li style="width: 20%; margin-top: 8px;">
+				                                          			<input class="form-control region-ord wx-paixu2" name="category_order[]" type="text" value="0">
+				                                          		</li>
+				                                          		<li style="width: 15%;">
+				                                          			<div class="pull-right">
+			                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                           		<a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+			                                                            <a href="#">删除</a>
+			                                                        </div>
+				                                          		</li>
+			                                          		</ul>
+			                                          		<!--三级-->
+				                                          	<div class="wx-three">
+				                                          		<ul class="wx-jobnor">
+				                                          			<li class="wx-dress" style="width: 60%;">
+					                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+				                                                        <input name="save_id[]" type="hidden" value="1">
+				                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+				                                                        <span name="categoryname[]" class="region-span">物流派发</span>
+					                                          		</li>
+					                                          		<li style="width: 20%; margin-top: 8px;">
+					                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+					                                          		</li>
+					                                          		<li style="width: 15%;">
+					                                          			<div class="pull-right">
+				                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+				                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+				                                                            <a href="#">删除</a>
+				                                                        </div>
+					                                          		</li>
+				                                          		</ul>
+				                                          		
+				                                          		<!--四级-->
+					                                          	<div class="wx-throu">
+					                                          		<ul class="wx-jobnor">
+					                                          			<li class="wx-dress" style="width: 60%;">
+						                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+					                                                        <input name="save_id[]" type="hidden" value="1">
+					                                                        <img src="__PUBLIC__/Admin/img/left_d.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+					                                                        <span name="categoryname[]" class="region-span">订单处理</span>
+						                                          		</li>
+						                                          		<li style="width: 20%; margin-top: 8px;">
+						                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+						                                          		</li>
+						                                          		<li style="width: 15%;">
+						                                          			<div class="pull-right">
+					                                                            <!--<a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|-->
+					                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+					                                                            <a href="#">删除</a>
+					                                                        </div>
+						                                          		</li>
+					                                          		</ul>
+					                                          	</div>
+				                                          		
+				                                          	</div>
+
+			                                          	</div>
+			                                          	
+			                                          	
+			                                          	
+		
+		                                          	</div>
+		                                          	
+		                                          	
+		                                          	<!--地区分类-->
+		                                          	<div class="wx-one">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg">
+		                                                        <span name="categoryname[]" class="region-span">地区分类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          		
+		                                          		<!--二级-->
+			                                          	<div class="wx-two">
+			                                          		<ul class="wx-jobnor">
+			                                          			<li class="wx-dress" style="width: 60%;">
+				                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+			                                                        <input name="save_id[]" type="hidden" value="1">
+			                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg1">
+			                                                        <span name="categoryname[]" class="region-span">山西省</span>
+				                                          		</li>
+				                                          		<li style="width: 20%; margin-top: 8px;">
+				                                          			<input class="form-control region-ord wx-paixu2" name="category_order[]" type="text" value="0">
+				                                          		</li>
+				                                          		<li style="width: 15%;">
+				                                          			<div class="pull-right">
+			                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+			                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+			                                                            <a href="#">删除</a>
+			                                                        </div>
+				                                          		</li>
+			                                          		</ul>
+			                                          		<!--三级-->
+				                                          	<div class="wx-three">
+				                                          		<ul class="wx-jobnor">
+				                                          			<li class="wx-dress" style="width: 60%;">
+					                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+				                                                        <input name="save_id[]" type="hidden" value="1">
+				                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+				                                                        <span name="categoryname[]" class="region-span">大同市</span>
+					                                          		</li>
+					                                          		<li style="width: 20%; margin-top: 8px;">
+					                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+					                                          		</li>
+					                                          		<li style="width: 15%;">
+					                                          			<div class="pull-right">
+				                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+				                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+				                                                            <a href="#">删除</a>
+				                                                        </div>
+					                                          		</li>
+				                                          		</ul>
+				                                          		
+				                                          		<!--四级-->
+					                                          	<div class="wx-throu">
+					                                          		<ul class="wx-jobnor">
+					                                          			<li class="wx-dress" style="width: 60%;">
+						                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+					                                                        <input name="save_id[]" type="hidden" value="1">
+					                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg3">
+					                                                        <span name="categoryname[]" class="region-span">大同区</span>
+						                                          		</li>
+						                                          		<li style="width: 20%; margin-top: 8px;">
+						                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+						                                          		</li>
+						                                          		<li style="width: 15%;">
+						                                          			<div class="pull-right">
+					                                                            <a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|
+					                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+					                                                            <a href="#">删除</a>
+					                                                        </div>
+						                                          		</li>
+					                                          		</ul>
+					                                          		<!--五级-->
+					                                          		<div class="wx-five">
+						                                          		<ul class="wx-jobnor">
+						                                          			<li class="wx-dress" style="width: 60%;">
+							                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+						                                                        <input name="save_id[]" type="hidden" value="1">
+						                                                        <img src="__PUBLIC__/Admin/img/left_d.gif" border="0" align="absmiddle" id="1" class="leftimg4">
+						                                                        <span name="categoryname[]" class="region-span">大同镇</span>
+							                                          		</li>
+							                                          		<li style="width: 20%; margin-top: 8px;">
+							                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+							                                          		</li>
+							                                          		<li style="width: 15%;">
+							                                          			<div class="pull-right">
+						                                                            <!--<a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|-->
+						                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+						                                                            <a href="#">删除</a>
+						                                                        </div>
+							                                          		</li>
+						                                          		</ul>
+						                                          	</div>
+					                                          		
+					                                          	</div>
+				                                          		
+				                                          	</div>
+
+			                                          	</div>
+		
+		                                          	</div>
+		                                          	
+		                                          	<!--CMS内容分类-->
+		                                          	<div class="wx-one">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg">
+		                                                        <span name="categoryname[]" class="region-span">CMS内容分类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          		
+		                                          		<!--二级-->
+			                                          	<div class="wx-two">
+			                                          		<ul class="wx-jobnor">
+			                                          			<li class="wx-dress" style="width: 60%;">
+				                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+			                                                        <input name="save_id[]" type="hidden" value="1">
+			                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg1">
+			                                                        <span name="categoryname[]" class="region-span">京东到家推广员 </span>
+				                                          		</li>
+				                                          		<li style="width: 20%; margin-top: 8px;">
+				                                          			<input class="form-control region-ord wx-paixu2" name="category_order[]" type="text" value="0">
+				                                          		</li>
+				                                          		<li style="width: 15%;">
+				                                          			<div class="pull-right">
+			                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+			                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+			                                                            <a href="#">删除</a>
+			                                                        </div>
+				                                          		</li>
+			                                          		</ul>
+			                                          		<!--三级-->
+				                                          	<div class="wx-three">
+				                                          		<ul class="wx-jobnor">
+				                                          			<li class="wx-dress" style="width: 60%;">
+					                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+				                                                        <input name="save_id[]" type="hidden" value="1">
+				                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+				                                                        <span name="categoryname[]" class="region-span">推广员 </span>
+					                                          		</li>
+					                                          		<li style="width: 20%; margin-top: 8px;">
+					                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+					                                          		</li>
+					                                          		<li style="width: 15%;">
+					                                          			<div class="pull-right">
+				                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+				                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+				                                                            <a href="#">删除</a>
+				                                                        </div>
+					                                          		</li>
+				                                          		</ul>
+				                                          		
+				                                          		<!--四级-->
+					                                          	<div class="wx-throu">
+					                                          		<ul class="wx-jobnor">
+					                                          			<li class="wx-dress" style="width: 60%;">
+						                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+					                                                        <input name="save_id[]" type="hidden" value="1">
+					                                                        <img src="__PUBLIC__/Admin/img/left_d.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+					                                                        <span name="categoryname[]" class="region-span">推广</span>
+						                                          		</li>
+						                                          		<li style="width: 20%; margin-top: 8px;">
+						                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+						                                          		</li>
+						                                          		<li style="width: 15%;">
+						                                          			<div class="pull-right">
+					                                                            <!--<a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|-->
+					                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+					                                                            <a href="#">删除</a>
+					                                                        </div>
+						                                          		</li>
+					                                          		</ul>
+					                                          	</div>
+				                                          		
+				                                          	</div>
+
+			                                          	</div>
+		
+		                                          	</div>
+		                                          	
+		                                          	<!--意见和建议分类-->
+		                                          	<div class="wx-one">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg">
+		                                                        <span name="categoryname[]" class="region-span">意见和建议分类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          		
+		                                          		<!--二级-->
+			                                          	<div class="wx-two">
+			                                          		<ul class="wx-jobnor">
+			                                          			<li class="wx-dress" style="width: 60%;">
+				                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+			                                                        <input name="save_id[]" type="hidden" value="1">
+			                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg1">
+			                                                        <span name="categoryname[]" class="region-span">服务类意见</span>
+				                                          		</li>
+				                                          		<li style="width: 20%; margin-top: 8px;">
+				                                          			<input class="form-control region-ord wx-paixu2" name="category_order[]" type="text" value="0">
+				                                          		</li>
+				                                          		<li style="width: 15%;">
+				                                          			<div class="pull-right">
+			                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+			                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+			                                                            <a href="#">删除</a>
+			                                                        </div>
+				                                          		</li>
+			                                          		</ul>
+			                                          		<!--三级-->
+				                                          	<div class="wx-three">
+				                                          		<ul class="wx-jobnor">
+				                                          			<li class="wx-dress" style="width: 60%;">
+					                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+				                                                        <input name="save_id[]" type="hidden" value="1">
+				                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+				                                                        <span name="categoryname[]" class="region-span">服务类意见</span>
+					                                          		</li>
+					                                          		<li style="width: 20%; margin-top: 8px;">
+					                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+					                                          		</li>
+					                                          		<li style="width: 15%;">
+					                                          			<div class="pull-right">
+				                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+				                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+				                                                            <a href="#">删除</a>
+				                                                        </div>
+					                                          		</li>
+				                                          		</ul>
+				                                          		
+				                                          		<!--四级-->
+					                                          	<div class="wx-throu">
+					                                          		<ul class="wx-jobnor">
+					                                          			<li class="wx-dress" style="width: 60%;">
+						                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+					                                                        <input name="save_id[]" type="hidden" value="1">
+					                                                        <img src="__PUBLIC__/Admin/img/left_d.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+					                                                        <span name="categoryname[]" class="region-span">服务类意见</span>
+						                                          		</li>
+						                                          		<li style="width: 20%; margin-top: 8px;">
+						                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+						                                          		</li>
+						                                          		<li style="width: 15%;">
+						                                          			<div class="pull-right">
+					                                                            <!--<a href="{:U('Position/add_childe_class')}">添加子类</a>&nbsp;|-->
+					                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+					                                                            <a href="#">删除</a>
+					                                                        </div>
+						                                          		</li>
+					                                          		</ul>
+					                                          	</div>
+				                                          		
+				                                          	</div>
+
+			                                          	</div>
+		
+		                                          	</div>
+		                                          	
+		                                          	
+		                                          	
+		                                          	
+		                    
+		                                          	
+		                                          	<!--三级-->
+		                                          	<div class="wx-three">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+		                                                        <span name="categoryname[]" class="region-span">家政服务类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          	</div>
+		                                          	<!--四级-->
+		                                          	<div class="wx-throu">
+		                                          		<ul class="wx-jobnor">
+		                                          			<li class="wx-dress" style="width: 60%;">
+			                                          			<input type="checkbox" name="id[]" value="1" id="1" class="Bcheck">
+		                                                        <input name="save_id[]" type="hidden" value="1">
+		                                                        <img src="__PUBLIC__/Admin/img/left_e.gif" border="0" align="absmiddle" id="1" class="leftimg2">
+		                                                        <span name="categoryname[]" class="region-span">家政服务类</span>
+			                                          		</li>
+			                                          		<li style="width: 20%; margin-top: 8px;">
+			                                          			<input class="form-control region-ord" name="category_order[]" type="text" value="0">
+			                                          		</li>
+			                                          		<li style="width: 15%;">
+			                                          			<div class="pull-right">
+		                                                            <a href="{:U('System/add_childe_class')}">添加子类</a>&nbsp;|
+		                                                            <a href="{:U('System/alter_job_class')}">修改</a>&nbsp;|
+		                                                            <a href="#">删除</a>
+		                                                        </div>
+			                                          		</li>
+		                                          		</ul>
+		                                          	</div>
+		                                          	
+		                                          	
+
+		                                          	
+		                                          	
+		                                        </div>
+
+
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <div class="pull-left bottom-btn-group">
+												<div class="checkbox checkbox-info checkbox-inline">
+													<input id="checkbox_qx" name="full-select" type="checkbox">
+													<label for="checkbox_qx">全选</label>
+												</div>
+												<button type="button" class="btn">
+			                                    删除
+			                                </button>
+												<div class="btn-group">
+													<button type="button" class="btn">
+			                                        增加顶级分类
+			                                    </button>
+													
+												</div>
+			
+											</div>
+   
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+
+
+	<include file="Public:footer" />
+
+

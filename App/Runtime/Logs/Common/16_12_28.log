@@ -1,0 +1,120 @@
+[ 2016-12-28T11:16:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-28T12:44:39+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-28T14:17:26+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-28T16:45:59+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-12-28T18:32:30+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:33:46+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004882s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:34:10+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:34:32+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:35:00+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:35:17+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:37:50+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:37:50+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:38:45+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:38:46+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005859s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:43:12+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002930s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:43:12+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000977s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005860s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:47:32+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:47:32+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:47:55+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003906s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T18:48:00+08:00 ] 127.0.0.1 /Public/Hongbao/layout/blue/js/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000976s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003907s ]
+ERR: 无法加载模块:Public
+

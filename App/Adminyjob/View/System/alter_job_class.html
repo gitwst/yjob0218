@@ -1,0 +1,69 @@
+<include file="Public:header" />
+
+<body>
+	<!-- BEGIN SECTION -->
+	<section id="container" class="">
+
+		<include file="Public:top" />
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN MAIN CONTENT -->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <ul>
+                                <li class="first-font">
+                                    <span class="region-topspan"><a href="region_class.html"><< 职位分类管理</a></span>修改分类
+                                </li>
+                                <div class="opinion-hr">
+                                    <hr />
+                                </div>
+                                <form method="post" action="" class="form-horizontal">
+                                    <li>
+                                        <label>所属分类:</label>
+                                        <select class="form-control f-input-sm alter-classify">
+                                        	<optgroup label="职位分类">
+	                                            <option value="1" selected="selected">职位分类</option>
+	                                            <option value="2">销售行政/商务类</option>
+	                                            <option value="3">推广类</option>
+		 									</optgroup>
+                                            <optgroup label="Web设计">
+	                                            <option value="1">经营管理类</option>
+	                                            <option value="2">销售行政/商务类</option>
+	                                            <option value="3">推广类</option>
+		 									</optgroup>
+                                        </select>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <label>子类名称:</label>
+                                        <input type="text" class="form-control alter-classify">
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <div>
+                                            <label>分类排序:</label>
+                                            <input type="text" class="form-control sort-class">
+                                            <span class="alter-span">(数字越大越靠前)</span>
+                                        </div>
+                                    </li>
+                                    <div class="opinion-hr">
+                                        <hr />
+                                    </div>
+                                    <div class="send">
+                                        <button type="submit" class=" btn  alter-btn">保存</button>
+                                    </div>
+                                </form>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+
+<include file="Public:footer" />
